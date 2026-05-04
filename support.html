@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TraderCapital Support</title>
+  <meta name="description" content="Support and help for TraderCapital — trading journal, P/L tracker, and discipline dashboard.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f172a;
+      --panel: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --border: #273449;
+      --accent: #38bdf8;
+      --link: #7dd3fc;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --panel: #ffffff;
+        --text: #111827;
+        --muted: #4b5563;
+        --border: #dbe3ef;
+        --accent: #0369a1;
+        --link: #0369a1;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+
+    article {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: clamp(24px, 5vw, 48px);
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.2;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      margin: 36px 0 12px;
+      font-size: 1.25rem;
+      color: var(--accent);
+    }
+
+    h3 {
+      margin: 24px 0 8px;
+      font-size: 1.05rem;
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    ul {
+      margin: 0 0 16px;
+      padding-left: 1.25rem;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+
+    .eyebrow {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .cta {
+      margin: 20px 0 28px;
+    }
+
+    .cta a.button {
+      display: inline-block;
+      padding: 12px 20px;
+      background: var(--accent);
+      color: var(--panel);
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    @media (prefers-color-scheme: light) {
+      .cta a.button {
+        color: #ffffff;
+      }
+    }
+
+    .notice {
+      margin: 28px 0 0;
+      padding: 16px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    .nav-top {
+      margin: 0 0 24px;
+      font-size: 0.95rem;
+    }
+
+    .nav-top a {
+      margin-right: 16px;
+    }
+
+    footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <nav class="nav-top" aria-label="Related pages">
+        <a href="https://datatechmaestro.github.io/PrivacyPages/">Privacy Policy</a>
+      </nav>
+
+      <h1>TraderCapital Support</h1>
+      <p class="eyebrow">Help, contact, and common questions</p>
+
+      <p>TraderCapital is a private trading journal and discipline dashboard for tracking daily P/L, rules, goals, funds, and consistency. For questions, bugs, feedback, or feature ideas, reach out by email—we read every message.</p>
+
+      <div class="cta">
+        <a class="button" href="mailto:datatechmaestro@gmail.com?subject=TraderCapital%20Support">Email support</a>
+      </div>
+
+      <p>Direct address: <a href="mailto:datatechmaestro@gmail.com">datatechmaestro@gmail.com</a></p>
+
+      <h2>Common questions</h2>
+
+      <h3>Does TraderCapital provide trading advice?</h3>
+      <p>No. TraderCapital is for personal logging, journaling, and self-coaching only. It does not provide financial, investment, tax, legal, or trading advice. Past performance does not guarantee future results. Trading involves risk.</p>
+
+      <h3>Does TraderCapital connect to my broker?</h3>
+      <p>No. The app does not connect to brokerage accounts. You enter your own information manually.</p>
+
+      <h3>Where is my data stored?</h3>
+      <p>TraderCapital stores app data on your device. If iCloud is enabled, Apple may sync your data through your private iCloud account so it can appear on your other devices signed in with the same Apple ID.</p>
+
+      <h3>Can I export my data?</h3>
+      <p>The app includes CSV export so you can review activity history outside the app. Exported files are under your control once saved or shared.</p>
+
+      <h3>Widgets look outdated or empty</h3>
+      <p>Widgets show data saved by the app. Open TraderCapital and update your log or settings so the widget can refresh. You may need to remove and re-add the widget after large data resets.</p>
+
+      <h3>How do I reset or delete my data?</h3>
+      <p>In the app, go to <strong>Settings → Data &amp; Reset</strong> for options to clear logs, rules, allocations, journal entries, settings, or all data at once.</p>
+
+    </article>
+
+    <footer>
+      &copy; <span id="year">2026</span> TraderCapital. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
